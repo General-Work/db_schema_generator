@@ -138,8 +138,12 @@ pnpm run dev
 
 ## Demo
 
-A live demo of the project is available at:
-<a href="https://db-schema-generator.vercel.app">https://db-schema-generator.vercel.app</a>
+- A live demo of the project is available at:
+  <a href="https://db-schema-generator.vercel.app">https://db-schema-generator.vercel.app</a>
+
+- The backend is hosted on a shared server, which shuts down when idle. As a result, the first request to the backend may take longer than expected, potentially timing out or failing.
+- If this occurs, performing a hard refresh on the frontend is necessary. Subsequent requests should then go through successfully since the server will have restarted.
+- This approach is being used for testing purposes and not production to avoid incurring server costs.
 
 ## Future Enhancements
 
