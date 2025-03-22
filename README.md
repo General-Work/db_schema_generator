@@ -135,3 +135,18 @@ VITE_SERVER_URL=
 ```bash
 pnpm run dev
 ```
+
+## Demo
+
+A live demo of the project is available at:
+<a href="https://db-schema-generator.vercel.app">https://db-schema-generator.vercel.app</a>
+
+## Future Enhancements
+
+1. Export Schemas:
+
+- Allow users to export schemas as SQL scripts or other formats.
+
+2. User Authentication:
+
+- Add user authentication to allow users to save and manage their projects. Now everyone who visits the app sees all schema or projects that have been add.
