@@ -129,7 +129,7 @@ pnpm install
 VITE_SERVER_URL=
 ```
 
-4. Start frontend server
+4. Start frontend server 
 
 ```bash
 pnpm run dev
