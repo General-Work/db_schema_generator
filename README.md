@@ -13,6 +13,7 @@ This project is a web application that assists users in designing their own data
 
 - Supports both SQL and NoSQL schemas (currently implemented for SQL).
 - Schemas are generated in JSON format and can be converted to SQL or other formats.
+- I chose **SQL** over NoSQL because its structured, relational nature, support for JSONB, and ability to enforce data integrity align perfectly with the project's focus on generating and managing well-defined database schemas.
 
 ### 3. Conversation History:
 
@@ -129,7 +130,7 @@ pnpm install
 VITE_SERVER_URL=
 ```
 
-4. Start frontend server 
+4. Start frontend server
 
 ```bash
 pnpm run dev
