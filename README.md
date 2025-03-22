@@ -139,7 +139,7 @@ pnpm run dev
 ## Demo
 
 A live demo of the project is available at:
-<a href="https://db-schema-generator.vercel.app" target="_blank">https://db-schema-generator.vercel.app</a>
+<a href="https://db-schema-generator.vercel.app">https://db-schema-generator.vercel.app</a>
 
 ## Future Enhancements
 
